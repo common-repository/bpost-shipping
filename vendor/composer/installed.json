@@ -1,0 +1,128 @@
+{
+    "packages": [
+        {
+            "name": "antidot-be/bpost-api-library",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Antidot-be/bpost-api-library.git",
+                "reference": "f7a3a903e7acb7e7e159016ed37bef05c4aa408d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Antidot-be/bpost-api-library/zipball/f7a3a903e7acb7e7e159016ed37bef05c4aa408d",
+                "reference": "f7a3a903e7acb7e7e159016ed37bef05c4aa408d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-mbstring": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.3.0",
+                "psr/log": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "=3.9.5",
+                "phpunit/phpunit": "^5"
+            },
+            "time": "2024-07-16T14:04:09+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Tests\\": "tests/",
+                    "Bpost\\BpostApiClient\\": "src/"
+                },
+                "classmap": [
+                    "src/tijsverkoyen_classes.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Raphaël Pommier",
+                    "email": "rpommier@antidot.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "kouinkouin",
+                    "email": "me@kouinkouin.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tijs Verkoyen",
+                    "email": "bpost@verkoyen.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "bpost API library is a PHP library to communicate with the bpost API.",
+            "homepage": "https://github.com/Antidot-be/bpost-api-library",
+            "support": {
+                "issues": "https://github.com/Antidot-be/bpost-api-library/issues",
+                "source": "https://github.com/Antidot-be/bpost-api-library/tree/master"
+            },
+            "install-path": "../antidot-be/bpost-api-library"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "version_normalized": "1.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2021-05-03T11:20:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "install-path": "../psr/log"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
